@@ -2,14 +2,14 @@
 layout: page
 title: "August Binary Sensor"
 description: "Instructions on how to integrate your August devices into Home Assistant."
-date: 2018-02-17 22:00
+date: 2018-10-03 15:00
 sidebar: true
 comments: false
 sharing: true
 footer: true
 logo: august.png
-ha_category: Doorbell
-ha_release: "0.64"
+ha_category: Doorbell, Lock
+ha_release: "0.79"
 ha_iot_class: "Cloud Polling"
 ---
 
@@ -21,3 +21,6 @@ If you have August Doorbell, once you have enabled the [August component](/compo
 * Doorbell motion sensor
 * Doorbell online sensor
 
+If you have August Smart Lock with DoorSense, once you have enabled the [August component](/components/august/), you should see following sensor:
+
+* Door sensor
