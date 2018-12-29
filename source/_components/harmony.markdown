@@ -185,7 +185,6 @@ data:
 ```
 
 ### {% linkable_title Service `remote.harmony_change_channel` %}
-
 Sends the change channel command to the Harmony HUB 
 
 | Service data attribute | Optional | Description |
